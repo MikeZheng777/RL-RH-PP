@@ -24,6 +24,10 @@
   <a href="#citation">Citation</a>
 </p>
 
+
+https://github.com/user-attachments/assets/5e1d1dfe-51cf-48b4-85dd-f4a02148b3d9
+
+
 <!-- TODO: drag-drop comparison_animation.mp4 into the GitHub README editor to get an inline video URL, then paste it here -->
 
 </div>
