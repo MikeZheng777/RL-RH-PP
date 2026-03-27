@@ -1,0 +1,23 @@
+# Example config file (optional — all values have defaults in RL_train.py)
+# Override any value here, or pass via CLI args which take precedence.
+#
+# Usage:
+#   python RL_train.py                                    # defaults: SYMBOTIC, 80 agents
+#   python RL_train.py --scenario KIVA --agent_num 100    # CLI overrides
+#   python RL_train.py --config config.yaml               # load from file
+
+scenario: "SYMBOTIC"
+map: "maps/symbotic.map"
+agent_num: 80
+kappa: 1000
+
+simulation_time: 800
+simulation_window: 5
+planning_window: 20
+
+num_epochs: 4000
+num_cpus: 16
+batch_size: 32
+lr_model: 0.001
+lr_critic: 0.001
+seed: 0

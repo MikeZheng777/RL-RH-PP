@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# C++ build artifacts
+*.so
+*.o
+Debug/
+Release/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Logs and experiments
+logs/
+wandb/
+*.out
+cpp_logs/
+exp/
+exp_*/
+
+# Misc
+~*
+.ipynb_checkpoints
